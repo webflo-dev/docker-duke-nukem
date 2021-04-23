@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+ duke-nukem-3d:
+  image: webflo/duke-nukem-3d
+  build:
+   context: .
+  container_name: duke-nukem-3d
+  ports:
+   - 5900:5900
+ 
